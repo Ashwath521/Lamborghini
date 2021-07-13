@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&family=Roboto:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+   font-family: 'Nunito',
+   sans-serif;
+   font-family: 'Roboto',
+   sans-serif;
+   font-size: 60%;
+   font-weight:100;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.header {
+    height: 8rem;
+    width: 100%;
+    display: flex;
+    background-color: rgb(43, 35, 35);
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+}
+
+.header .logo{
+    margin-left: 8rem;
+}
+.header .navbar{
+    margin-right: 8rem;
+}
+.header .navbar a{
+    text-decoration: none;
+    color: white;
+    margin-right: 3rem;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+
+.header .navbar a:hover {
+  color: tomato;
+  border-bottom: 1px solid tomato;
+  
+ 
+}
+
+.home{
+    height: 100vh;
+    background: url(./images/Capture.JPG) no-repeat;
+    background-position: center left;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-top: 2rem;
+}
+
+
+
+.home .container .heading{
+    width: 50%;
+    left: 3rem;
+    margin-left: 8rem;
+    padding-bottom: 2rem;
+    
+   
+    
+}
+
+.home .container .heading h3{
+    color: white;
+    letter-spacing: 7.6px;
+    font-size: 2rem;
+}
+
+.home .container .heading h3:hover{
+    color: tomato;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.home .container .heading h1{
+    color: white;
+    font-size:10rem;
+
+}
+
+.home .container .power{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 8rem;
+    width: 60%;
+    
+}
+
+
+.home .container .power .cv-power span {
+    color: white;
+    font-weight: 600;
+    letter-spacing: 6px;
+    padding-bottom: 2rem;
+    font-size: 16px;
+}
+
+
+.home .container .power .cv-power h1{
+    color: white;
+    font-size: 4rem;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+
+.home .container .power .maxspeed span {
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+}
+
+
+.home .container .power .maxspeed h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 4rem;
+   
+}
+
+.home .container .power .kmspeed span {
+    color: rgb(238, 224, 224);
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    
+}
+
+
+.home .container .power .kmspeed h1 {
+    color: rgb(247, 238, 238);
+    font-weight: 200;
+    font-size: 4rem;
+}
+
+.about {
+    height: 100vh;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about h1 {
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(10, 10, 10);
+    /* padding: 4rem; */
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+}
+
+.about h1 span{
+    color: tomato;
+}
+
+ .about-container .box {
+     width: 80rem;
+     height: 60rem;
+     display: flex;
+     flex: 60rem;
+     text-align: center;
+ 
+ }
+ 
+
+ .about-container .box img{
+     clip-path: polygon(0% 0%, 100% 0%, 0% 180%, 0% 0%);
+     width: 120rem;
+     height: 60rem;
+ }
+
+ .about-container .box .overview {
+     color: rgb(12, 12, 12);
+     width: 32rem;
+     margin-left: 35rem;
+    margin-top: 5rem; 
+    text-align: left;  
+    line-height: 2rem;
+    font-size: 2rem;
+ }
+
+ .about-container .box .overview span {
+     display: block;
+     padding-bottom: 2rem;
+     font-size: 4rem;
+     font-weight: 400;
+     letter-spacing: 1px;
+     
+ }
+ 
+
+ .about-container .box .exterior {
+      color: rgb(12, 12, 12);
+      width: 70rem;
+      margin-left: 10rem;
+      margin-top: 5rem;
+      text-align: left;
+      line-height: 3rem;
+      font-size: 2rem;
+      padding-top: 2rem;
+ }
+
+ .about-container .box .exterior span {
+     display: block;
+     padding-bottom: 1rem;
+     font-weight: 700;
+     letter-spacing: 1px;
+     font-size: 4rem;
+     font-weight: 400;
+ }
+
+
+
+
+
+ .about-container .box .exterior-img {
+     object-fit: cover;
+     height: 90%;
+     width: 100%;
+     clip-path: polygon(100% 100%, 100% 0%, 80% 0%, 0% 140%);
+ }
+
+
+
